@@ -23,7 +23,6 @@ def es_oblongo(num: int) -> str:
     return "no es oblongo"
 
 
-# Programa principal
 numero = int(input("Ingrese un número a verificar: "))
 print(f"¿Es triangular? {es_triangular(numero)}")
 print(f"¿Es oblongo? {es_oblongo(numero)}")

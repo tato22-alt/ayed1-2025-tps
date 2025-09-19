@@ -1,5 +1,5 @@
-from typing import list
-def calcular_vuelto(denominaciones: list[int])-> str:
+from typing import List
+def calcular_vuelto()-> str:
     """pre: La función recibe como parámetro una lista con las denominaciones de los billetes que hay
         post: Devuelve un mensaje con la cantidad de billetes de cada denominación necesario para dar el vuelto,
         en caso de que falte devolver menos de 10 pesos mostrará un mensaje
@@ -19,4 +19,7 @@ def calcular_vuelto(denominaciones: list[int])-> str:
         cantidad = vuelto // b    
         if cantidad > 0:         
             print(f"{cantidad} billete(s) de ${b}")
-        vuelto = vuelto % b       
+        vuelto = vuelto % b    
+        
+
+calcular_vuelto()
