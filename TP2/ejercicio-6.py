@@ -12,3 +12,4 @@ def porcentaje(lista: List[int]) -> List[float]:
     return lista_nueva
 
 print(porcentaje(lista))
+
